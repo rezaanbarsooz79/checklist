@@ -204,4 +204,10 @@ input:hover {
         background: rgb(99, 0, 72);
         background: linear-gradient(222deg, rgba(99, 0, 72, 0.5) 0%, rgba(255, 114, 114, 0.5) 100%);
     }
+
+    .del {
+        background-color: rgba(67, 67, 67, 0.001);
+        color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
 }
