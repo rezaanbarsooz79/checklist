@@ -207,7 +207,7 @@ input:hover {
 
     .del {
         background-color: rgba(67, 67, 67, 0.01);
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.1);
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 5px;
     }
