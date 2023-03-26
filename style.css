@@ -21,6 +21,7 @@ table {
 
 body {
     background-image: url(background-image.jpg);
+    background-attachment: fixed;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,6 +87,7 @@ table {
     margin-bottom: 2%;
     margin-left: 2.5%;
     padding: 0 10px;
+    outline: none;
 }
 
 .del {
