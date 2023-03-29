@@ -21,8 +21,8 @@ table {
 
 body {
     background-image: url(background-image.jpg);
-    background-attachment: fixed;
-    overflow: hidden;
+    /* background-attachment: fixed; */
+    /* overflow: hidden; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 60rem;
@@ -39,18 +39,18 @@ h1 {
     margin-top: 15px;
 }
 
-h5 {
+/* h5 {
     color: rgba(255, 255, 255, 0.6);
     text-align: center;
     letter-spacing: 7px;
     margin-top: -32px;
     padding: 0px;
     font-size: 12px;
-}
+} */
 
 table {
     width: 95%;
-    height: 50px;
+    height: 10%;
     margin: 0 auto;
     margin-bottom: 25px;
     font-size: 20PX;
@@ -186,6 +186,10 @@ input:hover {
 }
 
 @media only screen and (max-width:700px) {
+    * {
+        font-size: 0.8rem;
+    }
+
     .inputText {
         width: 89%;
         height: 25px;
@@ -211,12 +215,16 @@ input:hover {
         border-radius: 5px;
     }
 
-    h5 {
+    /* h5 {
         color: rgba(255, 255, 255, 0.6);
         text-align: center;
         letter-spacing: 7px;
         margin-top: -20px;
         padding: 0px;
         font-size: 12px;
+    } */
+
+    body {
+        height: 250vh;
     }
 }
